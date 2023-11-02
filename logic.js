@@ -1,4 +1,5 @@
 const passBox=document.getElementById("pass");
+const pasteBox=document.getElementById("paste");
 const length=12;
 
 const upCase="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -35,4 +36,5 @@ const copyPassword=()=>{
 }
 const resetPassword=()=>{
     passBox.value='';
+    pasteBox.value='';
 }
